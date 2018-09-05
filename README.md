@@ -13,4 +13,4 @@ An interactive website that lets you try [Keytty](https://keytty.com) without in
 - make a cool website using Reason
 - another (hopefully) cool open source project
 - let people discover what it's like to use [Keytty](https://keytty.com) on macOS
-- hopefully let the world know about my baby [Keytty](https://keytty.com)
+- hopefully let the world know about my baby, [Keytty](https://keytty.com)
