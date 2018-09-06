@@ -4,7 +4,7 @@ An interactive website that lets you try [Keytty](https://keytty.com) without in
 ## WIP
 
 ## Roadmap
-- [ ] set up the project with Reason React
+- [X] set up the project with Reason React
 - [ ] key command input box UI
 - [ ] mimic macOS screen
 - [ ] multiple screens with different purposes (click, drag and more)
