@@ -1,8 +1,11 @@
+build/**/*
+!build/index.html
 node_modules
 lib
 .DS_Store
 .merlin
 .bsb.lock
 npm-debug.log
-build
 src/*.bs.js
+.cache
+dist
