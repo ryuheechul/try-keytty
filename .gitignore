@@ -6,6 +6,6 @@ lib
 .merlin
 .bsb.lock
 npm-debug.log
-src/*.bs.js
+src/**/*.bs.js
 .cache
 dist
