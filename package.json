@@ -17,13 +17,14 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "lodash": "^4.17.15",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "reason-react": ">=0.4.0"
   },
   "devDependencies": {
     "bs-platform": "^4.0.5",
-    "parcel-bundler": "^1.9.7",
+    "parcel-bundler": "^1.12.3",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.10"
   }
