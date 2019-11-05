@@ -1,5 +1,6 @@
 const path = require('path');
-const outputDir = path.join(__dirname, "build/");
+const publicPath = "build/";
+const outputDir = path.join(__dirname, publicPath);
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -8,7 +9,15 @@ module.exports = {
   mode: isProd ? 'production' : 'development',
   output: {
     path: outputDir,
-    publicPath: outputDir,
+//    publicPath: publicPath,
     filename: 'Index.bs.js',
   },
+  module: {
+    rules: [{
+      test: /\.(png|jpg)$/,
+      use: [
+        'file-loader'
+      ]
+    }]
+  }
 };
